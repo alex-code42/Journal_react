@@ -1,0 +1,46 @@
+.entryForm{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-self: stretch;
+    height: 600px;
+    padding: 0px 16px;
+}
+
+.entryForm_Motto{
+    display: flex;
+    flex-direction: column;
+}
+
+.entryForm_Form{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border-radius: 4px;
+    background: var(--nemo, #FF4A11);
+    display: flex;
+    padding: 12px 40px;
+    align-items: center;
+    gap: 8px;
+}
+
+.entryForm p{
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    align-self: stretch;
+}
+#entryMotto{
+    height: 124px;
+    width: 100%;
+    align-self: stretch;
+}
+
+#entryForm{
+    height: 124px;
+    width: 100%;
+    align-self: stretch;
+}
